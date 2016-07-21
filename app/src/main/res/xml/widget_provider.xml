@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:initialLayout="@layout/widget_layout"
+  android:minWidth="110dip"
+  android:minHeight="40dip"
+  android:label="@string/app_label"
+  android:updatePeriodMillis="3600000"
+  android:resizeMode="horizontal|vertical"
+  android:configure="org.androidchile.gdgandroidstgo.activity.WidgetConfigActivity"
+  android:previewImage="@android:drawable/ic_dialog_email" />
